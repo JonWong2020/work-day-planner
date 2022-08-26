@@ -10,13 +10,13 @@ A work day planner made with HTML, CSS, JavaScript along with elements from Boot
 
 ## Links
 
-Live Site:  
+Live Site:  https://jonwong2020.github.io/work-day-planner/
 
 Repo:  https://github.com/JonWong2020/work-day-planner
 
 ## Screenshot(s)
 
-
+![work day planner](https://user-images.githubusercontent.com/110364895/186999960-47160da4-fa34-4fef-8659-d9685a88cf7f.gif)
 
 ## Credits
 
