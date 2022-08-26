@@ -52,6 +52,7 @@ function showPlan() {
         }
     });
 }
+
 // Call functions
 
 textBlockColor();
