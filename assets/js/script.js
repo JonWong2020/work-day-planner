@@ -36,7 +36,23 @@ saveBtn.on("click", function() {
     // console.log(this);
 });
 
+// Function to have info pull after page refresh
 
+function showPlan() {
+
+    $(".hour").each(function() {
+        var presentHour = $(this).text();
+        var presentPlan = localStorage.getItem(presentHour);
+
+        // console.log(this);
+        // console.log(presentHour);
+
+        if (presentPlan !== null) {
+            $(this).siblings(".plan").val(presentPlan);
+        }
+    });
+}
 // Call functions
 
 textBlockColor();
+showPlan();
