@@ -14,7 +14,7 @@ function textBlockColor() {
     $(".time-block").each(function() {
         var currentHour = parseInt($(this).attr("id"));
 
-        console.log(this);
+        // console.log(this);
 
         if (currentHour > hour) {
             $(this).addClass("future");
@@ -25,6 +25,17 @@ function textBlockColor() {
         }
     })
 };
+
+// Save information to local storage
+
+saveBtn.on("click", function() {
+    var time = $(this).siblings(".hour").text();
+    var plan = $(this).siblings(".plan").val();
+
+    localStorage.setItem(time, plan);
+    // console.log(this);
+});
+
 
 // Call functions
 
