@@ -1,0 +1,10 @@
+// Selectors
+
+var saveBtn = $(".saveBtn");
+
+// Moment.js function to display calendar with date (Month, day, year, dayof) and time
+
+$("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
+
+// function to display the color background depending on past, present, or future
+
